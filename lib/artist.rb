@@ -22,12 +22,3 @@ class Song
 attr_attributor :song_name
 
 end
-
-
-
-
-
-
-
-
-  
