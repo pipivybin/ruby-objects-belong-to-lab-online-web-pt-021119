@@ -6,13 +6,13 @@ end
 
 class Author
 
-attr_accessor :author_name
+attr_accessor :name
 
 end
 
 class Post
 
-attr_accessor :post_title, :post_author
+attr_accessor :title, :author
 
 def initialize(title)
 @post_title = title
