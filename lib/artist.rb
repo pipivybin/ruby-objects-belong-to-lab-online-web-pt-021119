@@ -18,6 +18,6 @@ end
 
 class Song
 
-attr_accessor :name
+attr_accessor :name, :title
 
 end
