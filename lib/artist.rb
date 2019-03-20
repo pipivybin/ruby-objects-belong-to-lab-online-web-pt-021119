@@ -1,20 +1,18 @@
 class Artist
 
-attr_attributor :artist_name
+attr_accessor :artist_name
 
 end
 
 class Author
 
-attr_attributor :author_name
-
-
+attr_accessor :author_name
 
 end
 
 class Post
 
-attr_attributor :post_title, :post_author
+attr_accessor :post_title, :post_author
 
 def initialize(title)
 @post_title = title
@@ -28,6 +26,6 @@ end
 
 class Song
 
-attr_attributor :song_name
+attr_accessor :song_name
 
 end
