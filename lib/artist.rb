@@ -14,9 +14,6 @@ class Post
 
 attr_accessor :title, :author
 
-def post_author
-
-end
 
 end
 
